@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico|Raleway:300,400,800" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <nav class="main-nav" id="main-nav">
+      <h1>Cahee</h1>
+      <ul class="main-nav__menu">
+        <li class="menu__item">
+          <label for='home'></label><a href='#home_section'>HOME</a></label>
+          <input type='radio' name='item__choose' id='home' class='item__radio' checked />
+          <div class='item__choose-home'></div>
+        </li>
+        <li class="menu__item">
+          <label for='about'><a href='#about_section'>ABOUT</a></label>
+          <input type='radio' name='item__choose' id='about' class='item__radio' />
+          <div class='item__choose-about'></div>
+        </li>
+        <li class="menu__item">
+          <label for='services'><a href='#services_section'>SERVICES</a></label>
+          <input type='radio' name='item__choose' id='services' class='item__radio' />
+          <div class='item__choose-services'></div>
+        </li>
+        <li class="menu__item">
+          <label for='gallery'><a href='#gallery_section'>GALLERY</a></label>
+          <input type='radio' name='item__choose' id='gallery' class='item__radio' />
+          <div class='item__choose-gallery'></div>
+        </li>
+        <li class="menu__item">
+          <label for='blog'><a href='#blog_section'>BLOG</a></label>
+          <input type='radio' name='item__choose' id='blog' class='item__radio' />
+          <div class='item__choose-blog'></div>
+        </li>
+        <li class="menu__item">
+          <label for='contact'><a href='#contact_section'>CONTACT</a></label>
+          <input type='radio' name='item__choose' id='contact' class='item__radio' />
+          <div class='item__choose-contact'></div>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="header" id='home_section'>
+      <div class="header__info">
+        <div class="info__text">
+          <h2 class="info__text-header">Fresh Life</h2>
+          <p class="info__text-text">Sed do elusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            venam, quis nostrud exercitation ullamco
+          </p>
+        </div>
+        <button class="info-btn">GET FREE NOW</button>
+      </div>
+      <div class="scroll">
+        <div class="scroll__stick"></div>
+      </div>
+    </section>
+
+    <section class="about" id='about_section'>
+      <div class="about__img"></div>
+      <div class="about__info">
+        <h2 class="about__info-header">
+          About Us
+        </h2>
+        <p>
+          Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in valuptate velit esse cillum.
+        </p>
+        <p>
+          Nim id est labum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accesantium doloremque laudantium total
+          rem aperiam, eaque ipsa quae ab illo inventore.
+        </p>
+      </div>
+    </section>
+
+    <section class="services" id='services_section'>
+      <ul class="services__list">
+        <li class="services__list__btn">
+          <div class='services__text'>Online Shopping</div>
+          <div style='background-image: url("images/icon.png")' class='services__icon'></div>
+        </li>
+        <li class="services__list__btn">
+          <div class='services__text'>Quality Product</div>
+          <div style='background-image: url("images/icon(1).png")' class='services__icon'></div>
+        </li>
+        <li class="services__list__btn">
+          <div class='services__text'>Domestic & International Delivery</div>
+          <div style='background-image: url("images/icon(2).png")' class='services__icon'></div>
+        </li>
+        <li class="services__list__btn">
+          <div class='services__text'>Well Organized</div>
+          <div style='background-image: url("images/icon(3).png")' class='services__icon'></div>
+        </li>
+      </ul>
+      <img src='tomatos.png' class='services__tomatos' />
+      <h2 class="services__title">Our Services</h2>
+    </section>
+
+    <section class="gallery" id='gallery_section'>
+      <h2 class="gallery__title">Gallery</h2>
+      <p class="gallery__text">
+        Consectur adipsicing elt, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <div class="gallery__pictures">
+        <div style="background-image: url('images/pear.png')" class="picture1 picture"></div>
+        <div style="background-image: url('images/berry.png')" class="picture2 picture"></div>
+        <div style="background-image: url('images/another-berry.png')" class="picture3 picture"></div>
+        <div style="background-image: url('images/another-another-berry.png')" class="picture4 picture"></div>
+        <div style="background-image: url('images/apple.png')" class="picture5 picture"></div>
+      </div>
+      <button class='gallery-btn'>VIEW MORE</button>
+    </section>
+
+    <section class="subscribe" id='subscribe_section'>
+      <h3 class="subscribe__title">Subscribe To Us</h3>
+      <p class="subscribe__text">Dolor sit amet, consectetur adipiscing elit. Nunc eget ex arcu. Ut finibus quam vitae eros
+        vulputate.
+      </p>
+      <form class="subscribe__form">
+        <input type='email' name='email' placeholder="Your email adress" class='subscribe__form-input' />
+        <input type="submit" value="SUBSCRIBE" class='subscribe__form-submit'>
+      </form>
+    </section>
+
+    <section class="blog" id='blog_section'>
+      <h2 class="blog__title">
+        Blog
+      </h2>
+      <p class="blog__text">
+        Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation uliamco laboris nisi ul aliquip ex ea commodo consequat.
+        Duis aute irure doto in repehenderit in volupale velit.
+      </p>
+      <div class="blog__images">
+        <div class="blog__images-image" style="background-image: url('images/smoothie.png')">
+          <div class="image__background-gradinet">
+            <h3 class="image__title">
+              Green Smoothies: Too Much of a Good Thing?
+            </h3>
+            <p class="image__author">
+              By Auskeez - 2 hours ago
+            </p>
+          </div>
+        </div>
+        <div class="blog__images-image" style="background-image: url('images/something_green.png')">
+          <div class="image__background-gradinet">
+            <h3 class="image__title">
+              Growing Food and Thirst of Innovation
+            </h3>
+            <p class="image__author">
+              By Auskeez - 3 hours ago
+            </p>
+          </div>
+        </div>
+        <div class="blog__images-image" style="background-image: url('images/red_berries.png')">
+          <div class="image__background-gradinet">
+            <h3 class="image__title">
+              Pesticides & Food: What You Need to Know
+            </h3>
+            <p class="image__author">
+              By Auskeez - 6 hours ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="blog__btn">VIEW MORE</button>
+    </section>
+
+
+    <section class="contact" id='contact_section'>
+      <h2 class="contact__title">
+        Contact
+      </h2>
+      <p class="contact__text">
+        For new projects, ideas, business or anything you'd like to discuss, contact with me!
+      </p>
+      <div class="contact__form__address">
+        <form class="contact__form">
+          <input type="text" name="name" id="name" class="contact__input" placeholder="Your name and surname" />
+          <input type="email" name="email" id="email" class="contact__input" placeholder="Your email" />
+          <input type="text" name="phone" id="phone" class="contact__input" placeholder="Your phone number" />
+          <textarea name="message" id="message" class="contact__input message" placeholder="Your message"></textarea>
+        </form>
+        <div class="contact__address">
+          <div>
+            <h4>
+              ADDRESS
+            </h4>
+            <p>
+              123 City name, Street, Cty, Country
+            </p>
+          </div>
+          <div>
+            <h4>
+              EMAIL
+            </h4>
+            <p>
+              cahee@domain.com
+            </p>
+          </div>
+          <div>
+            <h4>
+              PHONE
+            </h4>
+            <p>
+              +012 345 6789
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="copyrights">&#9400; Company all rights reserved</p>
+      <h5>Cahee</h5>
+      <p class="motto">Made with <span style="color: #ff2b58; font-weight: 700">Love</span> by Auskteez and Michał Irzyłowski</p>
+    </footer>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
